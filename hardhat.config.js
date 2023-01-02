@@ -7,8 +7,8 @@ module.exports = {
   networks:{
     hardhat:{
       forking:{
-        url: process.env.ETH_URL,
-        blockNumber: 16312883
+        url: process.env.GOERLI_URL,
+        blockNumber: 8244718
        },
     },
     goerli:{
